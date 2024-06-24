@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 19,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "x0kxuyzhrv",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "SCROLL",
+  "parentId": "bujwe3rvfi",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "text": "{{appsmith.store.RecipeErrMsg}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 8,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "sj5hofl7qc",
+  "widgetName": "Text217Copy1"
+}

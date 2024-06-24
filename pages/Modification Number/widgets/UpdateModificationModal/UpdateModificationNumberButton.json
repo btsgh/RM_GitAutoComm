@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "buttonColor": "#000",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{appsmith.store.DisableEditControls ||( appsmith.store.row == \"Closed\" && appsmith.store.actFlag==0 ) || appsmith.store.row == \"Cancelled\" }}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cou3d4yjgq",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 54,
+  "onClick": "{{ModificationNoActivateUtil.ModifNumberUpdateButtonClick();}}",
+  "originalBottomRow": 59,
+  "originalTopRow": 55,
+  "parentId": "j68pfsw7no",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 61,
+  "text": "Save",
+  "topRow": 55,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "jemy61lzib",
+  "widgetName": "UpdateModificationNumberButton"
+}

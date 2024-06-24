@@ -1,0 +1,42 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": true,
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultText": "{{appsmith.user.name}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "TEXT",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "1vyz6rd8t9",
+  "label": "",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 7,
+  "parentColumnSpace": 17.3125,
+  "parentId": "532ehgc63e",
+  "parentRowSpace": 10,
+  "placeholderText": "Enter Name",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 20,
+  "topRow": 4,
+  "type": "INPUT_WIDGET",
+  "version": 2,
+  "widgetId": "yuvuq53bjo",
+  "widgetName": "CreateUserNameText"
+}

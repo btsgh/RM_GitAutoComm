@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "#000",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{ModificationUtils.DisableApplyButton()}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "avsztd2mha",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 39,
+  "onClick": "{{ModificationUtils.ApplyButtonClick()}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "d2q50birb0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 44,
+  "text": "Search",
+  "topRow": 4,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "4o6rmyczks",
+  "widgetName": "SearchApply"
+}

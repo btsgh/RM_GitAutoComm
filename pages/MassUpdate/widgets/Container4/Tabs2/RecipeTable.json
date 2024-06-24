@@ -1,0 +1,917 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 61,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": false,
+  "cellBackground": "",
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "RECIPE_NUMBER",
+    "RECIPE_CODE",
+    "PRODUCT_NAME",
+    "RECIPE_CLASS",
+    "RECIPE_STATUS",
+    "RECIPE_REVISION_NO",
+    "MODIF_NUMBER",
+    "RECIPE_UPTIME",
+    "RECIPE_UPUSER",
+    "CLASSIFICATION",
+    "RECIPE_TYPE_NUMBER",
+    "IS_RECIPE_EXIST_WITH_SAME_REVISION",
+    "RECIPE_CLASS_CODE",
+    "MACHINE_GROUP",
+    "RECIPE_TYPE_NAME",
+    "IS_VALID",
+    "customColumn1",
+    "PLACE_NAME_SHORT",
+    "customColumn3",
+    "STATION_PLACE"
+  ],
+  "columnUpdatedAt": 1698412728413,
+  "columnWidthMap": {
+    "PRODUCT_NAME": 234,
+    "RECIPE_CLASS": 182,
+    "RECIPE_CODE": 220,
+    "RECIPE_REVISION_NO": 94,
+    "RECIPE_STATUS": 94,
+    "status": 75,
+    "step": 62,
+    "task": 245
+  },
+  "compactMode": "SHORT",
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": "",
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.RECIPE_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.RECIPE_CODE.computedValue"
+    },
+    {
+      "key": "primaryColumns.PRODUCT_NAME.computedValue"
+    },
+    {
+      "key": "primaryColumns.RECIPE_CLASS.computedValue"
+    },
+    {
+      "key": "primaryColumns.RECIPE_STATUS.computedValue"
+    },
+    {
+      "key": "primaryColumns.RECIPE_REVISION_NO.computedValue"
+    },
+    {
+      "key": "primaryColumns.MODIF_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.RECIPE_UPTIME.computedValue"
+    },
+    {
+      "key": "primaryColumns.RECIPE_UPUSER.computedValue"
+    },
+    {
+      "key": "primaryColumns.CLASSIFICATION.computedValue"
+    },
+    {
+      "key": "primaryColumns.RECIPE_TYPE_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.IS_RECIPE_EXIST_WITH_SAME_REVISION.computedValue"
+    },
+    {
+      "key": "primaryColumns.RECIPE_CLASS_CODE.computedValue"
+    },
+    {
+      "key": "primaryColumns.MACHINE_GROUP.computedValue"
+    },
+    {
+      "key": "primaryColumns.RECIPE_TYPE_NAME.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.RECIPE_NUMBER.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_CODE.textColor"
+    },
+    {
+      "key": "primaryColumns.PRODUCT_NAME.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_CLASS.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_STATUS.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_REVISION_NO.textColor"
+    },
+    {
+      "key": "primaryColumns.MODIF_NUMBER.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_UPTIME.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_UPUSER.textColor"
+    },
+    {
+      "key": "primaryColumns.CLASSIFICATION.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_TYPE_NUMBER.textColor"
+    },
+    {
+      "key": "primaryColumns.IS_RECIPE_EXIST_WITH_SAME_REVISION.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_CLASS_CODE.textColor"
+    },
+    {
+      "key": "primaryColumns.MACHINE_GROUP.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_TYPE_NAME.textColor"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuColor"
+    },
+    {
+      "key": "primaryColumns.customColumn3.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn3.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuButtonLabel"
+    },
+    {
+      "key": "primaryColumns.IS_VALID.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuItems.menuItemp8n54ii1w7.isDisabled"
+    },
+    {
+      "key": "primaryColumns.STATION_PLACE.computedValue"
+    },
+    {
+      "key": "primaryColumns.PLACE_NAME_SHORT.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "primaryColumns.customColumn1.onClick"
+    },
+    {
+      "key": "primaryColumns.RECIPE_NUMBER.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_CODE.textColor"
+    },
+    {
+      "key": "primaryColumns.PRODUCT_NAME.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_CLASS.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_STATUS.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_REVISION_NO.textColor"
+    },
+    {
+      "key": "primaryColumns.MODIF_NUMBER.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_UPTIME.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_UPUSER.textColor"
+    },
+    {
+      "key": "primaryColumns.CLASSIFICATION.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_TYPE_NUMBER.textColor"
+    },
+    {
+      "key": "primaryColumns.IS_RECIPE_EXIST_WITH_SAME_REVISION.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_CLASS_CODE.textColor"
+    },
+    {
+      "key": "primaryColumns.MACHINE_GROUP.textColor"
+    },
+    {
+      "key": "primaryColumns.RECIPE_TYPE_NAME.textColor"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuItems.menuItemp8n54ii1w7.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuItems.menuItemp8n54ii1w7.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuItems.menuItemdkcezrqi9l.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuItems.menuItembrz8ex9afu.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn1.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuItems.menuItemp8n54ii1w7.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuItems.menuItemdkcezrqi9l.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn3.menuItems.menuItembrz8ex9afu.onClick"
+    }
+  ],
+  "enableClientSideSearch": true,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/formbuilderui/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "linwzan346",
+  "label": "Data",
+  "leftColumn": 0,
+  "multiRowSelection": true,
+  "parentColumnSpace": 19.953125,
+  "parentId": "1dlcr9jovw",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "CLASSIFICATION": {
+      "alias": "CLASSIFICATION",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CLASSIFICATION\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "CLASSIFICATION",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "CLASSIFICATION",
+      "originalId": "CLASSIFICATION",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "IS_RECIPE_EXIST_WITH_SAME_REVISION": {
+      "alias": "IS_RECIPE_EXIST_WITH_SAME_REVISION",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"IS_RECIPE_EXIST_WITH_SAME_REVISION\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "IS_RECIPE_EXIST_WITH_SAME_REVISION",
+      "index": 11,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "IS RECIPE EXIST WITH SAME REVISION",
+      "originalId": "IS_RECIPE_EXIST_WITH_SAME_REVISION",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "IS_VALID": {
+      "alias": "IS_VALID",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"IS_VALID\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "IS_VALID",
+      "index": 15,
+      "isCellEditable": false,
+      "isCellVisible": false,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "IS VALID",
+      "originalId": "IS_VALID",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "MACHINE_GROUP": {
+      "alias": "MACHINE_GROUP",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"MACHINE_GROUP\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "MACHINE_GROUP",
+      "index": 13,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "MACHINE GROUP",
+      "originalId": "MACHINE_GROUP",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "MODIF_NUMBER": {
+      "alias": "MODIF_NUMBER",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"MODIF_NUMBER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "MODIF_NUMBER",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "MODIF NO",
+      "originalId": "MODIF_NUMBER",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "PLACE_NAME_SHORT": {
+      "alias": "PLACE_NAME_SHORT",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PLACE_NAME_SHORT\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "PLACE_NAME_SHORT",
+      "index": 17,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "WORKPLACE",
+      "originalId": "PLACE_NAME_SHORT",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "PRODUCT_NAME": {
+      "alias": "PRODUCT_NAME",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PRODUCT_NAME\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "PRODUCT_NAME",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "RECIPE NAME(PRODUCT NAME)",
+      "originalId": "PRODUCT_NAME",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_CLASS": {
+      "alias": "RECIPE_CLASS",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RECIPE_CLASS\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_CLASS",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "CLASS",
+      "originalId": "RECIPE_CLASS",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_CLASS_CODE": {
+      "alias": "RECIPE_CLASS_CODE",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RECIPE_CLASS_CODE\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_CLASS_CODE",
+      "index": 12,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "RECIPE CLASS CODE",
+      "originalId": "RECIPE_CLASS_CODE",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_CODE": {
+      "alias": "RECIPE_CODE",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RECIPE_CODE\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_CODE",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "RECIPE CODE(PRODUCT CODE)",
+      "originalId": "RECIPE_CODE",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_NUMBER": {
+      "alias": "RECIPE_NUMBER",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RECIPE_NUMBER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_NUMBER",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "RECIPE NUMBER",
+      "originalId": "RECIPE_NUMBER",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_REVISION_NO": {
+      "alias": "RECIPE_REVISION_NO",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RECIPE_REVISION_NO\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_REVISION_NO",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "REVN.NO",
+      "originalId": "RECIPE_REVISION_NO",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_STATUS": {
+      "alias": "RECIPE_STATUS",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( RecipeStatusLogic.RecipeStatus(currentRow)))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_STATUS",
+      "index": 4,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "STATUS",
+      "originalId": "RECIPE_STATUS",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_TYPE_NAME": {
+      "alias": "RECIPE_TYPE_NAME",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RECIPE_TYPE_NAME\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_TYPE_NAME",
+      "index": 14,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "RECIPE TYPE NAME",
+      "originalId": "RECIPE_TYPE_NAME",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_TYPE_NUMBER": {
+      "alias": "RECIPE_TYPE_NUMBER",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RECIPE_TYPE_NUMBER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_TYPE_NUMBER",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "RECIPE TYPE NUMBER",
+      "originalId": "RECIPE_TYPE_NUMBER",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_UPTIME": {
+      "alias": "RECIPE_UPTIME",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RECIPE_UPTIME\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_UPTIME",
+      "index": 7,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "MODIFIED DATE",
+      "originalId": "RECIPE_UPTIME",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "RECIPE_UPUSER": {
+      "alias": "RECIPE_UPUSER",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RECIPE_UPUSER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "RECIPE_UPUSER",
+      "index": 8,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "USER",
+      "originalId": "RECIPE_UPUSER",
+      "sticky": "",
+      "textColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0?'':'#eb0505'))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "STATION_PLACE": {
+      "alias": "STATION_PLACE",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"STATION_PLACE\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "STATION_PLACE",
+      "index": 16,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "STATION PLACE",
+      "originalId": "STATION_PLACE",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "customColumn1",
+      "allowCellWrapping": false,
+      "borderRadius": "1.5rem",
+      "boxShadow": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
+      "buttonColor": "#1F1F1F",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "buttonVariant": "PRIMARY",
+      "cellBackground": "",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "customAlias": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "eye-open",
+      "id": "customColumn1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": false,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "VIEW RECIPE DETAILS",
+      "labelColor": "#FFFFFF",
+      "onClick": "{{MassUpdateJS.onRecipeViewClick()}}",
+      "originalId": "customColumn1",
+      "sticky": "",
+      "validation": {},
+      "width": 150
+    },
+    "customColumn3": {
+      "alias": "ACTION",
+      "allowCellWrapping": false,
+      "borderRadius": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+      "boxShadow": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "menuButton",
+      "computedValue": "",
+      "customAlias": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn3",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "ACTION",
+      "labelColor": "#FFFFFF",
+      "menuButtonLabel": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( '.'))}}",
+      "menuButtoniconName": "more",
+      "menuColor": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+      "menuItems": {
+        "menuItembrz8ex9afu": {
+          "iconName": "eye-open",
+          "id": "menuItembrz8ex9afu",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "View Recipe",
+          "onClick": "{{navigateTo('ViewRecipeDetail',{\"rno\":RecipeTable.triggeredRow.RECIPE_NUMBER,\"rsno\":appsmith.store.RecipeSetNumber},'NEW_WINDOW')}}",
+          "widgetId": "aror9a35ad"
+        },
+        "menuItemdkcezrqi9l": {
+          "iconName": "eye-open",
+          "id": "menuItemdkcezrqi9l",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": false,
+          "label": "View Recipe1",
+          "onClick": "{{MassUpdateJS.onRecipeViewClick()}}",
+          "widgetId": "i2wyczucw9"
+        },
+        "menuItemp8n54ii1w7": {
+          "iconName": "error",
+          "id": "menuItemp8n54ii1w7",
+          "index": 0,
+          "isDisabled": "{{RecipeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.IS_VALID==0))}}",
+          "isVisible": true,
+          "label": "Recipe Inconsistencies",
+          "onClick": "{{RecipeDataCheck.run();showModal('INCONSISTENT_RECIPE')}}",
+          "widgetId": "rz4g5987m6"
+        }
+      },
+      "menuItemsSource": "STATIC",
+      "menuVariant": "SECONDARY",
+      "originalId": "customColumn3",
+      "sticky": "",
+      "validation": {},
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{GetFilteredRecipe.data}}",
+  "textSize": "0.875rem",
+  "topRow": 0,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 1,
+  "verticalAlignment": "CENTER",
+  "widgetId": "qjnh8on1e3",
+  "widgetName": "RecipeTable"
+}

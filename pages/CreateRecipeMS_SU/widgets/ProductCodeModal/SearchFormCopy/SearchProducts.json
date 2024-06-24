@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "#000",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{((GrammageFrom.isValid))||((GrammageTo.isValid))||(parseInt(GrammageTo.text)<parseInt(GrammageFrom.text))}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "avsztd2mha",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 44,
+  "onClick": "{{SearchProductCode.run(() => showAlert('Product Code load successfully','success'), () => showAlert('Product code load failed.','error'))}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "h06nqvsi2o",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 51,
+  "text": "Search",
+  "topRow": 4,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "tilzleq38p",
+  "widgetName": "SearchProducts"
+}

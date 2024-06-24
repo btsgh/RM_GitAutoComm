@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "buttonColor": "#1f1f1f",
+  "buttonVariant": "SECONDARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6op23isfaa",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 58,
+  "onClick": "{{ModificationUtils.Defaultdate = new Date();resetWidget('CreateSHEQMultiSelect');resetWidget('CreateDescriptionInput');showModal('CreateModificationModal')}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "text": "New",
+  "topRow": 2,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "61nty0m5t9",
+  "widgetName": "CreateNewButton"
+}

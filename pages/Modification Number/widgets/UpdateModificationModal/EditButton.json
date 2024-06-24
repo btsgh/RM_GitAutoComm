@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "9999px",
+  "bottomRow": 4,
+  "boxShadow": "0px 0px 4px 3px rgba(0, 0, 0, 0.25)",
+  "buttonColor": "#231F20",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "edit",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.DisableEditControls}}",
+  "key": "sm7286tout",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 44,
+  "onClick": "{{storeValue('DisableEditControls',false,true)}}",
+  "parentColumnSpace": 17.3125,
+  "parentId": "j68pfsw7no",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 47,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "m9h0xaq2l8",
+  "widgetName": "EditButton"
+}

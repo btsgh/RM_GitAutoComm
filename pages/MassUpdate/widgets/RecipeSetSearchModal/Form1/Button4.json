@@ -1,0 +1,40 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "buttonColor": "#231F20",
+  "buttonVariant": "SECONDARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "add",
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "1jogtc104d",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 51,
+  "onClick": "{{navigateTo('Recipe Set', {})}}",
+  "parentColumnSpace": 13.59375,
+  "parentId": "hktl0en92l",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "text": "Create Recipe Set",
+  "topRow": 5,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ann1k64kkm",
+  "widgetName": "Button4"
+}

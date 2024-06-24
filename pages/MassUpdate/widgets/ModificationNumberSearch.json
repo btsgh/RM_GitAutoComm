@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowCurrencyChange": false,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultText": "{{appsmith.store.modificNo.toString()}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "validation"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "errorMessage": "",
+  "hideCard": false,
+  "iconAlign": "right",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "TEXT",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "1f0fpxt7k3",
+  "label": "Modification Number:",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 47,
+  "onSubmit": "",
+  "onTextChanged": "{{RecipeUtil.OnModificNoTextChange()}}",
+  "parentColumnSpace": 14.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "regex": "/^[0-9]+$/",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 62,
+  "topRow": 0,
+  "type": "INPUT_WIDGET",
+  "validation": "{{ModificationNumberSearch.text.length > 0}}",
+  "version": 1,
+  "widgetId": "fykpe1s981",
+  "widgetName": "ModificationNumberSearch"
+}

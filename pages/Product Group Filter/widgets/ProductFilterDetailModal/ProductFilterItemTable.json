@@ -1,0 +1,312 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 59,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": false,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "PRODUCT_FILTER_ITEM_NUMBER",
+    "PRODUCT_FILTER_NUMBER",
+    "GROUP_NUMBER",
+    "OPERATOR",
+    "GRAMMAGE_FROM",
+    "GRAMMAGE_TO",
+    "GRADES"
+  ],
+  "columnUpdatedAt": 1685714669989,
+  "columnWidthMap": {
+    "GRAMMAGE_FROM": 128,
+    "GRAMMAGE_TO": 104,
+    "GROUP_NUMBER": 83,
+    "OPERATOR": 121,
+    "status": 75,
+    "step": 62,
+    "task": 245
+  },
+  "compactMode": "SHORT",
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.PRODUCT_FILTER_ITEM_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.PRODUCT_FILTER_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.GROUP_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.OPERATOR.computedValue"
+    },
+    {
+      "key": "primaryColumns.GRAMMAGE_TO.computedValue"
+    },
+    {
+      "key": "primaryColumns.GRAMMAGE_FROM.computedValue"
+    },
+    {
+      "key": "primaryColumns.GRADES.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "enableServerSideFiltering": false,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/formbuilderui/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "mqdwnbjgnt",
+  "label": "Data",
+  "leftColumn": 0,
+  "parentColumnSpace": 11.84375,
+  "parentId": "dz05msxlme",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "GRADES": {
+      "alias": "GRADES",
+      "allowCellWrapping": false,
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GRADES\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "GRADES",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "GRADE",
+      "originalId": "GRADES",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "GRAMMAGE_FROM": {
+      "alias": "GRAMMAGE_FROM",
+      "allowCellWrapping": false,
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GRAMMAGE_FROM\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "GRAMMAGE_FROM",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "GSM FROM",
+      "originalId": "GRAMMAGE_FROM",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "GRAMMAGE_TO": {
+      "alias": "GRAMMAGE_TO",
+      "allowCellWrapping": false,
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GRAMMAGE_TO\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "GRAMMAGE_TO",
+      "index": 4,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "GSM TO",
+      "originalId": "GRAMMAGE_TO",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "GROUP_NUMBER": {
+      "alias": "GROUP_NUMBER",
+      "allowCellWrapping": false,
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GROUP_NUMBER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "GROUP_NUMBER",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "G. NO",
+      "originalId": "GROUP_NUMBER",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "OPERATOR": {
+      "alias": "OPERATOR",
+      "allowCellWrapping": false,
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"OPERATOR\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "OPERATOR",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "OPERATOR",
+      "originalId": "OPERATOR",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "PRODUCT_FILTER_ITEM_NUMBER": {
+      "alias": "PRODUCT_FILTER_ITEM_NUMBER",
+      "allowCellWrapping": false,
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PRODUCT_FILTER_ITEM_NUMBER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "PRODUCT_FILTER_ITEM_NUMBER",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "PRODUCT FILTER ITEM NUMBER",
+      "originalId": "PRODUCT_FILTER_ITEM_NUMBER",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "PRODUCT_FILTER_NUMBER": {
+      "alias": "PRODUCT_FILTER_NUMBER",
+      "allowCellWrapping": false,
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PRODUCT_FILTER_NUMBER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "PRODUCT_FILTER_NUMBER",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "PRODUCT FILTER NUMBER",
+      "originalId": "PRODUCT_FILTER_NUMBER",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{GetProductFilterItems.data}}",
+  "textSize": "0.875rem",
+  "topRow": 18,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 1,
+  "verticalAlignment": "CENTER",
+  "widgetId": "j7ddlzqfw7",
+  "widgetName": "ProductFilterItemTable"
+}

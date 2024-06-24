@@ -1,0 +1,46 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowCurrencyChange": false,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "TEXT",
+  "isDisabled": "{{ClassSelect.selectedOptionLabel == 'Raw Material' || ClassSelect.selectedOptionLabel == 'Pulp Dissolving' || ClassSelect.selectedOptionLabel == 'Coating' ? true: true}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": false,
+  "key": "8pv5qcy8gv",
+  "label": "",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 44,
+  "parentColumnSpace": 13.75,
+  "parentId": "syzvv3hxrg",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 51,
+  "topRow": 9,
+  "type": "INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "zafg0kita1",
+  "widgetName": "ProductGroupInput"
+}

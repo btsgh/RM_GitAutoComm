@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "64804349d3037658d5d79365_648bef31d3037658d5d7bed3",
+  "id": "CreateRecipeRMProd_CreateEditCS",
+  "unpublishedCollection": {
+    "name": "CreateEditCS",
+    "pageId": "CreateRecipeRMProd",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "RecipeEditButtonClick",
+        "value": "0"
+      }
+    ]
+  }
+}

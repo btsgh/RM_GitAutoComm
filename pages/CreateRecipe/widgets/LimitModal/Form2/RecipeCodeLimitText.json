@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "h3h8mbk9p9",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 25,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0375,
+  "parentId": "0tmxzyadek",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 39,
+  "text": "{{appsmith.URL.queryParams.RecipeAction == \"Create\" ? ProductGroupSelect.selectedOptionValue == 2 ?(ClassSelect.selectedOptionLabel == 'Raw Material' || ClassSelect.selectedOptionLabel == 'Pulp Dissolving' || ClassSelect.selectedOptionLabel == 'Coating') ? appsmith.store.InterMaterial : appsmith.store.ProductCode : appsmith.store.ProductGroupCode : GetFilteredRecipe.data.PRODUCT_CODE == null ? GetFilteredRecipe.data.INTER_MAT_CODE : GetFilteredRecipe.data.PRODUCT_CODE}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 4,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "ndolqoemff",
+  "widgetName": "RecipeCodeLimitText"
+}

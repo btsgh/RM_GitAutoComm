@@ -1,0 +1,254 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": false,
+  "borderRadius": "0px",
+  "bottomRow": 49,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 430,
+      "boxShadow": "none",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "su6j4wyxbf",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "pmg5o256tx",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 330,
+      "shouldScrollContents": false,
+      "tabId": "tab1",
+      "tabName": "Tab 1",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "oza3gog8ty",
+      "widgetName": "Canvas7CopyCopy"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 430,
+      "boxShadow": "none",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "su6j4wyxbf",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "pmg5o256tx",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 330,
+      "shouldScrollContents": false,
+      "tabId": "tab2",
+      "tabName": "Tab 2",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "zntjv5p436",
+      "widgetName": "Canvas8Copy"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 430,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "su6j4wyxbf",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "pmg5o256tx",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 880,
+      "tabId": "tabzwrv9j9xos",
+      "tabName": "Tab 3",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "tl9mrvqf7m",
+      "widgetName": "Canvas9Copy"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 430,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "su6j4wyxbf",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "pmg5o256tx",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 880,
+      "tabId": "tab6k5o2konrf",
+      "tabName": "Tab 4",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "s9xngvtutt",
+      "widgetName": "Canvas10"
+    },
+    {
+      "bottomRow": 430,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "gdlms05djn",
+      "leftColumn": 0,
+      "minHeight": 450,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "pmg5o256tx",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 880,
+      "tabId": "tabd408f3chdw",
+      "tabName": "Tab 5",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "coll8wvf9x",
+      "widgetName": "Canvas11"
+    }
+  ],
+  "defaultTab": "Tab 1",
+  "displayName": "Tabs",
+  "dynamicBindingPathList": [
+    {
+      "key": "tabsObj.tab6k5o2konrf.isVisible"
+    },
+    {
+      "key": "tabsObj.tabzwrv9j9xos.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    },
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tabd408f3chdw.isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    },
+    {
+      "key": "tabsObj.tabzwrv9j9xos.isVisible"
+    },
+    {
+      "key": "tabsObj.tab6k5o2konrf.isVisible"
+    },
+    {
+      "key": "tabsObj.tabd408f3chdw.isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.74a6d653.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "sxxe5ihin3",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 13.75,
+  "parentId": "ej7h1zmz8t",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "shouldShowTabs": false,
+  "tabsObj": {
+    "tab1": {
+      "id": "tab1",
+      "index": 0,
+      "isVisible": "{{GetProductionRecipeForView.data.RECIPE_CLASS==\"RM\" || GetProductionRecipeForView.data.RECIPE_CLASS==\"CO\" || GetProductionRecipeForView.data.RECIPE_CLASS==\"ST\"}}",
+      "label": "Tab 1",
+      "widgetId": "oza3gog8ty"
+    },
+    "tab2": {
+      "id": "tab2",
+      "index": 1,
+      "isVisible": "{{GetProductionRecipeForView.data.RECIPE_CLASS==\"PD\"}}",
+      "label": "Tab 2",
+      "widgetId": "zntjv5p436"
+    },
+    "tab6k5o2konrf": {
+      "id": "tab6k5o2konrf",
+      "index": 2,
+      "isVisible": "{{GetProductionRecipeForView.data.RECIPE_CLASS == \"MS\" || GetProductionRecipeForView.data.RECIPE_CLASS == \"SU\"}}",
+      "label": "Tab 4",
+      "widgetId": "s9xngvtutt"
+    },
+    "tabd408f3chdw": {
+      "id": "tabd408f3chdw",
+      "index": 4,
+      "isVisible": "{{GetProductionRecipeForView.data.RECIPE_CLASS == \"BL\" || GetProductionRecipeForView.data.RECIPE_CLASS == \"WS\"}}",
+      "label": "Tab 5",
+      "widgetId": "coll8wvf9x"
+    },
+    "tabzwrv9j9xos": {
+      "id": "tabzwrv9j9xos",
+      "index": 1,
+      "isVisible": "{{GetProductionRecipeForView.data.RECIPE_CLASS==\"CS\"}}",
+      "label": "Tab 3",
+      "widgetId": "tl9mrvqf7m"
+    }
+  },
+  "topRow": 6,
+  "type": "TABS_WIDGET",
+  "version": 3,
+  "widgetId": "pmg5o256tx",
+  "widgetName": "Tabs1Copy"
+}

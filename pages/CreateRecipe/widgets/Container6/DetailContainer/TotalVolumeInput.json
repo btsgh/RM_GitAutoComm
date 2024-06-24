@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowCurrencyChange": false,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultText": "{{(Number(appsmith.store.calculatedField.sv_totalVolume)==0?'':Number(appsmith.store.calculatedField.sv_totalVolume).toFixed())}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "NUMBER",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{appsmith.store.RecipeClassDropDown==\"PD\" || appsmith.store.RecipeClassDropDown==\"RM\" || appsmith.store.RecipeClassDropDown==\"CO\"}}",
+  "key": "i3jdc2ee61",
+  "label": "",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 45,
+  "onSubmit": "{{CalculateOnBoneDryChange.onVolumeChange()}}",
+  "onTextChanged": "",
+  "parentColumnSpace": 17.625,
+  "parentId": "5mu8z3bkjc",
+  "parentRowSpace": 10,
+  "regex": "(^\\d*\\.?\\d*[1-9]+\\d*$)|(^[1-9]+\\d*\\.\\d*$)",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "rightColumn": 51,
+  "topRow": 4,
+  "type": "INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "rh4j0y29a3",
+  "widgetName": "TotalVolumeInput"
+}

@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "#e0dede",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "search",
+  "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{ProductionRecipeUtil.DisableProductInput()}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "jhk6vh74ek",
+  "leftColumn": 31,
+  "minWidth": 50,
+  "onClick": "{{GetProductGrades.run(); showModal('ProductCodeModal')}}",
+  "originalBottomRow": 28,
+  "originalTopRow": 24,
+  "parentColumnSpace": 13.75,
+  "parentId": "gp7psn35w4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 33,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "topRow": 4,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "fy26i2fuc6",
+  "widgetName": "SearchProductCodeButton"
+}

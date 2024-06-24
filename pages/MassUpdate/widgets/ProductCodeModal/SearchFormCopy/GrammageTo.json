@@ -1,0 +1,43 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowCurrencyChange": false,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "NUMBER",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "9nvgck5zdo",
+  "label": "",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 10,
+  "parentColumnSpace": 20.0625,
+  "parentId": "lafelcwykr",
+  "parentRowSpace": 10,
+  "placeholderText": "End",
+  "regex": "^([1-9][0-9]{0,2}|1000)$",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 18,
+  "topRow": 8,
+  "type": "INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "uw92b62dfk",
+  "widgetName": "GrammageTo"
+}

@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "6257de1ab9659a27c0eb61e3_6257e08ab9659a27c0eb6235",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 1650.0,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0.0,
+          "minHeight": 680.0,
+          "parentColumnSpace": 1.0,
+          "parentRowSpace": 1.0,
+          "rightColumn": 1084.0,
+          "snapColumns": 64.0,
+          "snapRows": 63.0,
+          "topRow": 0.0,
+          "type": "CANVAS_WIDGET",
+          "version": 79.0,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Recipe",
+    "slug": "recipe"
+  }
+}

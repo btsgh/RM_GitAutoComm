@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "borderRadius": "9999px",
+  "bottomRow": 103,
+  "boxShadow": "none",
+  "buttonColor": "#F6F7F8",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "search",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "pywab5o2s7",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 19,
+  "onClick": "{{JSObject1.onsearchMaterialClick()}}",
+  "parentColumnSpace": 13.75,
+  "parentId": "y8hw5505ak",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 21,
+  "topRow": 99,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "67kiv6cv6u",
+  "widgetName": "SearchRecipeSetButtonCopy2"
+}

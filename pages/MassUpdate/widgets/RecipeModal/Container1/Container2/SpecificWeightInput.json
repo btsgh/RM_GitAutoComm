@@ -1,0 +1,53 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowCurrencyChange": false,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultText": "{{(Number(GetFilteredRecipeView.data.SPECIFIC_WEIGHT)==0?'':Number(GetFilteredRecipeView.data.SPECIFIC_WEIGHT).toFixed())}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "TEXT",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{GetFilteredRecipeView.data.RECIPE_CLASS==\"RM\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"CO\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"PD\"}}",
+  "key": "i3jdc2ee61",
+  "label": "",
+  "labelStyle": "",
+  "labelTextColor": "#FFFFFF",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 33,
+  "parentColumnSpace": 17.625,
+  "parentId": "cw0xtzemfo",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "cw7ebubrod",
+  "widgetName": "SpecificWeightInput"
+}

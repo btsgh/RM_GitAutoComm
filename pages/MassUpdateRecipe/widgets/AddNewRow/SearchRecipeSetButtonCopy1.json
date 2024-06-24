@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "9999px",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "buttonColor": "#F6F7F8",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "search",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.RecipeClassDropDown=='MS'||appsmith.store.RecipeClassDropDown=='CS'||appsmith.store.RecipeClassDropDown=='SU' ||appsmith.store.RecipeClassDropDown=='WS'||appsmith.store.RecipeClassDropDown=='DR' ||appsmith.store.RecipeClassDropDown=='BL'}}",
+  "key": "pywab5o2s7",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 43,
+  "onClick": "{{GetProperty.run(); showModal('PropertyModalAdd');}}",
+  "parentColumnSpace": 13.75,
+  "parentId": "pvyaks5fdt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 45,
+  "topRow": 9,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "w9alsl4jlw",
+  "widgetName": "SearchRecipeSetButtonCopy1"
+}

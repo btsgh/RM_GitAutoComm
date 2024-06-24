@@ -1,0 +1,49 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "defaultText": "{{SHEQMultiSelect.selectedOptionValues.includes('E')?GetModifCategoryByModifNumber.data[0].Environment_Actual_Impact:''}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "TEXT",
+  "isDisabled": "{{RecipeModificationsTable.selectedRow.MODIF_STATUS=='Cancelled' || appsmith.store.DisableEditControls}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "qjweqewiz0",
+  "label": "",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxChars": "1024",
+  "parentColumnSpace": 16.458984375,
+  "parentId": "qq9mfgvmei",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 64,
+  "topRow": 17,
+  "type": "INPUT_WIDGET",
+  "version": 2,
+  "widgetId": "7e2lcv6csh",
+  "widgetName": "UpdateEnvActualImpactText"
+}

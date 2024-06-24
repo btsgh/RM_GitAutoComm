@@ -1,0 +1,315 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 50,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 250,
+      "boxShadow": "none",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "hideCard": true,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "w4wakc7z66",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "y16ejxxhe2",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 415.5,
+      "shouldScrollContents": false,
+      "tabId": "tab1",
+      "tabName": "Safety - S",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "7rkgm38m0g",
+      "widgetName": "Canvas5"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 250,
+      "boxShadow": "none",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "hideCard": true,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "w4wakc7z66",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "y16ejxxhe2",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 415.5,
+      "shouldScrollContents": false,
+      "tabId": "tab2",
+      "tabName": "Health - H",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "cvq437g4xy",
+      "widgetName": "Canvas6"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 250,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "w4wakc7z66",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 190,
+      "parentColumnSpace": 1,
+      "parentId": "y16ejxxhe2",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 1073.375,
+      "tabId": "tabavi99p7w08",
+      "tabName": "Environment - E",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "kayswuo4up",
+      "widgetName": "Canvas7"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 250,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "w4wakc7z66",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 190,
+      "parentColumnSpace": 1,
+      "parentId": "y16ejxxhe2",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 1073.375,
+      "tabId": "tabqtbv4www1u",
+      "tabName": "Quality - Q",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "zhwhvz5zcv",
+      "widgetName": "Canvas8"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 250,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "w4wakc7z66",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 190,
+      "parentColumnSpace": 1,
+      "parentId": "y16ejxxhe2",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 1073.375,
+      "tabId": "tab9epquqr3ok",
+      "tabName": "Hygiene - HY",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "u0dzv66b5a",
+      "widgetName": "Canvas9"
+    },
+    {
+      "bottomRow": 250,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "m5ivvo6vez",
+      "leftColumn": 0,
+      "minHeight": 160,
+      "minWidth": 450,
+      "mobileBottomRow": 161,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1073.375,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "y16ejxxhe2",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1073.375,
+      "tabId": "tab6jubsswipu",
+      "tabName": "Cost - C",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "4zox7ctr22",
+      "widgetName": "Canvas15"
+    }
+  ],
+  "defaultTab": "",
+  "displayName": "Tabs",
+  "dynamicBindingPathList": [
+    {
+      "key": "tabsObj.tab9epquqr3ok.isVisible"
+    },
+    {
+      "key": "tabsObj.tabqtbv4www1u.isVisible"
+    },
+    {
+      "key": "tabsObj.tabavi99p7w08.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    },
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "tabsObj.tab6jubsswipu.isVisible"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    },
+    {
+      "key": "tabsObj.tabavi99p7w08.isVisible"
+    },
+    {
+      "key": "tabsObj.tabqtbv4www1u.isVisible"
+    },
+    {
+      "key": "tabsObj.tab9epquqr3ok.isVisible"
+    },
+    {
+      "key": "tabsObj.tab6jubsswipu.isVisible"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.74a6d653.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": "{{CreateSHEQMultiSelect.selectedOptionValues.length > 0}}",
+  "key": "mkl7jcez4w",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "parentColumnSpace": 17.3125,
+  "parentId": "532ehgc63e",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "shouldScrollContents": true,
+  "shouldShowTabs": true,
+  "tabsObj": {
+    "tab1": {
+      "id": "tab1",
+      "index": 0,
+      "isVisible": "{{CreateSHEQMultiSelect.selectedOptionValues.includes('S')}}",
+      "label": "Safety - S",
+      "widgetId": "7rkgm38m0g"
+    },
+    "tab2": {
+      "id": "tab2",
+      "index": 1,
+      "isVisible": "{{CreateSHEQMultiSelect.selectedOptionValues.includes('H')}}",
+      "label": "Health - H",
+      "widgetId": "cvq437g4xy"
+    },
+    "tab6jubsswipu": {
+      "id": "tab6jubsswipu",
+      "index": 5,
+      "isVisible": "{{CreateSHEQMultiSelect.selectedOptionValues.includes('C')}}",
+      "label": "Cost - C",
+      "widgetId": "4zox7ctr22"
+    },
+    "tab9epquqr3ok": {
+      "id": "tab9epquqr3ok",
+      "index": 3,
+      "isVisible": "{{CreateSHEQMultiSelect.selectedOptionValues.includes('HY')}}",
+      "label": "Hygiene - HY",
+      "widgetId": "u0dzv66b5a"
+    },
+    "tabavi99p7w08": {
+      "id": "tabavi99p7w08",
+      "index": 1,
+      "isVisible": "{{CreateSHEQMultiSelect.selectedOptionValues.includes('E')}}",
+      "label": "Environment - E",
+      "widgetId": "kayswuo4up"
+    },
+    "tabqtbv4www1u": {
+      "id": "tabqtbv4www1u",
+      "index": 2,
+      "isVisible": "{{CreateSHEQMultiSelect.selectedOptionValues.includes('Q')}}",
+      "label": "Quality - Q",
+      "widgetId": "zhwhvz5zcv"
+    }
+  },
+  "topRow": 21,
+  "type": "TABS_WIDGET",
+  "version": 3,
+  "widgetId": "y16ejxxhe2",
+  "widgetName": "CreateModifSHEQTabs"
+}

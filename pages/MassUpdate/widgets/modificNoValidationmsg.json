@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "borderWidth": "",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.showErrorMessage == undefined ? false : appsmith.store.showErrorMessage}}",
+  "key": "0dgqalnpa8",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 33,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 47,
+  "text": "Modification No required.",
+  "textAlign": "RIGHT",
+  "textColor": "#DD4B34",
+  "topRow": 0,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "402t99lnl9",
+  "widgetName": "modificNoValidationmsg"
+}

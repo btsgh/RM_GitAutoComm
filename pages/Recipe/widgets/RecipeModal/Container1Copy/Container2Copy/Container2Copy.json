@@ -1,0 +1,75 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#F6F7F8",
+  "borderColor": "transparent",
+  "borderRadius": "0px",
+  "borderWidth": "0",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 180,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "hp5s6ggnax",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "n1nmoc6iad",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 423,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "j75gd4w80o",
+      "widgetName": "Canvas4Copy1"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": "{{GetFilteredRecipeView.data.RECIPE_CLASS==\"RM\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"CO\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"ST\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"PD\"}}",
+  "key": "ufdbi51p1n",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 46,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 17.625,
+  "parentId": "axbmr8gbsc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "topRow": 0,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "n1nmoc6iad",
+  "widgetName": "Container2Copy"
+}

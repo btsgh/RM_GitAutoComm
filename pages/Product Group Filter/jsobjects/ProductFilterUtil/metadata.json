@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "641e8ba219a780347eeef45b_6421b61c19a780347eef06e0",
+  "id": "Product Group Filter_ProductFilterUtil",
+  "unpublishedCollection": {
+    "name": "ProductFilterUtil",
+    "pageId": "Product Group Filter",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

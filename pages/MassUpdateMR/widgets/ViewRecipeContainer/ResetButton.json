@@ -1,0 +1,37 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 103,
+  "boxShadow": "none",
+  "buttonColor": "#1f1f1f",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "displayName": "FormButton",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": true,
+  "iconSVG": "/static/media/icon.c8f649ed.svg",
+  "isDefaultClickDisabled": true,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "6dldvo9ade",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 26,
+  "onClick": "{{Resetobject.ResetInputWidget()}}",
+  "parentId": "y8hw5505ak",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "rightColumn": 31,
+  "text": "Reset",
+  "topRow": 99,
+  "type": "FORM_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "y9udpyrb6g",
+  "widgetName": "ResetButton"
+}

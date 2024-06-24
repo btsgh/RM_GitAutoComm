@@ -1,0 +1,36 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "buttonColor": "#000",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "displayName": "FormButton",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": true,
+  "iconSVG": "/static/media/icon.c8f649ed.svg",
+  "isDefaultClickDisabled": true,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "01ljun1y4b",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 39,
+  "onClick": "{{GetFilteredRecipeSet.run(() => showAlert('RecipeSet Load Successfully','success'), () => showAlert('RecipeSet Failed to Load.','error'))}}",
+  "parentId": "hktl0en92l",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "rightColumn": 45,
+  "text": "Search",
+  "topRow": 9,
+  "type": "FORM_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "scsxq8a3ws",
+  "widgetName": "SearchRecipeSetModalButton"
+}

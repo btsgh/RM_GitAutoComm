@@ -1,0 +1,214 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 52,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 480,
+      "boxShadow": "none",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "su6j4wyxbf",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "r712o6e2tv",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 330,
+      "shouldScrollContents": false,
+      "tabId": "tab1",
+      "tabName": "Tab 1",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "mg533y9mg4",
+      "widgetName": "Canvas7CopyCopy"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 560,
+      "boxShadow": "none",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "su6j4wyxbf",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "r712o6e2tv",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 330,
+      "shouldScrollContents": false,
+      "tabId": "tab2",
+      "tabName": "Tab 2",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "evu2fb5pcj",
+      "widgetName": "Canvas8Copy"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 510,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "su6j4wyxbf",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "r712o6e2tv",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 880,
+      "tabId": "tabzwrv9j9xos",
+      "tabName": "Tab 3",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "jipnfuvarc",
+      "widgetName": "Canvas9Copy"
+    },
+    {
+      "borderRadius": "0px",
+      "bottomRow": 480,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "su6j4wyxbf",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "r712o6e2tv",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 880,
+      "tabId": "tab6k5o2konrf",
+      "tabName": "Tab 4",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "i61ombblgi",
+      "widgetName": "Canvas10"
+    }
+  ],
+  "defaultTab": "Tab 1",
+  "displayName": "Tabs",
+  "dynamicBindingPathList": [
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    },
+    {
+      "key": "tabsObj.tabzwrv9j9xos.isVisible"
+    },
+    {
+      "key": "tabsObj.tab6k5o2konrf.isVisible"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    },
+    {
+      "key": "tabsObj.tabzwrv9j9xos.isVisible"
+    },
+    {
+      "key": "tabsObj.tab6k5o2konrf.isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.74a6d653.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "sxxe5ihin3",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 13.75,
+  "parentId": "drr0e664t4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "shouldShowTabs": false,
+  "tabsObj": {
+    "tab1": {
+      "id": "tab1",
+      "index": 0,
+      "isVisible": "{{GetFilteredRecipeView.data.RECIPE_CLASS==\"RM\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"CO\" || GetFilteredRecipeView.data.RECIPE_CLASS==\"ST\"}}",
+      "label": "Tab 1",
+      "widgetId": "mg533y9mg4"
+    },
+    "tab2": {
+      "id": "tab2",
+      "index": 1,
+      "isVisible": "{{GetFilteredRecipeView.data.RECIPE_CLASS==\"PD\"}}",
+      "label": "Tab 2",
+      "widgetId": "evu2fb5pcj"
+    },
+    "tab6k5o2konrf": {
+      "id": "tab6k5o2konrf",
+      "index": 2,
+      "isVisible": "{{GetFilteredRecipeView.data.RECIPE_CLASS == \"MS\" || GetFilteredRecipeView.data.RECIPE_CLASS == \"SU\"}}",
+      "label": "Tab 4",
+      "widgetId": "i61ombblgi"
+    },
+    "tabzwrv9j9xos": {
+      "id": "tabzwrv9j9xos",
+      "index": 1,
+      "isVisible": "{{GetFilteredRecipeView.data.RECIPE_CLASS==\"CS\"}}",
+      "label": "Tab 3",
+      "widgetId": "jipnfuvarc"
+    }
+  },
+  "topRow": 4,
+  "type": "TABS_WIDGET",
+  "version": 3,
+  "widgetId": "r712o6e2tv",
+  "widgetName": "Tabs1Copy"
+}

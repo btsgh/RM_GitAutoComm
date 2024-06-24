@@ -1,0 +1,40 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "#FFFFFF",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "arrow-left",
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "gx0adh8eu7",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 13,
+  "onClick": "{{navigateTo('Recipe',{})}}",
+  "parentColumnSpace": 17.9375,
+  "parentId": "visbcin43v",
+  "parentRowSpace": 10,
+  "placement": "START",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 18,
+  "text": "Back",
+  "topRow": 0,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "qrk1t2t9wk",
+  "widgetName": "BackButton"
+}

@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 62,
+  "boxShadow": "none",
+  "buttonColor": "#231F20",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cou3d4yjgq",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 55,
+  "onClick": "{{ModificationNoActivateUtil.CreateModificationNumberButtonClick()}}",
+  "originalBottomRow": 59,
+  "originalTopRow": 55,
+  "parentId": "532ehgc63e",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "text": "Save",
+  "topRow": 58,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "9m3fh6zqgf",
+  "widgetName": "UpdateModificationNumberButtonCopy"
+}

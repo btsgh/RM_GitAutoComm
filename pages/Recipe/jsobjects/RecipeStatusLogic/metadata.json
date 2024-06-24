@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "62e95e33d04c4f3c9d2dde51_62e9703fd04c4f3c9d2ddf4a",
+  "id": "Recipe_RecipeStatusLogic",
+  "unpublishedCollection": {
+    "name": "RecipeStatusLogic",
+    "pageId": "Recipe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "buttonColor": "#f0f0f0",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "FormButton",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": true,
+  "iconSVG": "/static/media/icon.c8f649ed.svg",
+  "isDefaultClickDisabled": true,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6dldvo9ade",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 59,
+  "onClick": "{{JSObject1.ResetButtonClick()}}",
+  "parentId": "syzvv3hxrg",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "rightColumn": 64,
+  "text": "Reset",
+  "topRow": 9,
+  "type": "FORM_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "yaz2n8v765",
+  "widgetName": "ResetButtonCopy"
+}

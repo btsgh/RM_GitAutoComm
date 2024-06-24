@@ -1,0 +1,401 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": false,
+  "borderRadius": "0.375rem",
+  "bottomRow": 61,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "PRODUCT_FILTER_ITEM_NUMBER",
+    "PRODUCT_FILTER_NUMBER",
+    "GROUP_NUMBER",
+    "OPERATOR",
+    "GRAMMAGE_FROM",
+    "GRAMMAGE_TO",
+    "GRADES",
+    "customColumn1"
+  ],
+  "columnUpdatedAt": 1685808676292,
+  "columnWidthMap": {
+    "GRADES": 372,
+    "GRAMMAGE_FROM": 122,
+    "GRAMMAGE_TO": 91.99999999999999,
+    "GROUP_NUMBER": 76,
+    "OPERATOR": 125,
+    "status": 75,
+    "step": 62,
+    "task": 245
+  },
+  "compactMode": "SHORT",
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.PRODUCT_FILTER_ITEM_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.PRODUCT_FILTER_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.GROUP_NUMBER.computedValue"
+    },
+    {
+      "key": "primaryColumns.OPERATOR.computedValue"
+    },
+    {
+      "key": "primaryColumns.GRAMMAGE_TO.computedValue"
+    },
+    {
+      "key": "primaryColumns.GRAMMAGE_FROM.computedValue"
+    },
+    {
+      "key": "primaryColumns.GRADES.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.menuColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn1.menuButtonLabel"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn1.menuItems.menuItemusf0y16thl.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn1.menuItems.menuItem3ron2jeaqw.onClick"
+    }
+  ],
+  "enableClientSideSearch": true,
+  "enableServerSideFiltering": false,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/formbuilderui/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "3la4ea0nnp",
+  "label": "Data",
+  "leftColumn": 0,
+  "parentColumnSpace": 7.97216796875,
+  "parentId": "v0l03plmao",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "GRADES": {
+      "alias": "GRADES",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GRADES\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "GRADES",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "GRADES",
+      "originalId": "GRADES",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "GRAMMAGE_FROM": {
+      "alias": "GRAMMAGE_FROM",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GRAMMAGE_FROM\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "GRAMMAGE_FROM",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "GSM FROM",
+      "originalId": "GRAMMAGE_FROM",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "GRAMMAGE_TO": {
+      "alias": "GRAMMAGE_TO",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GRAMMAGE_TO\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "GRAMMAGE_TO",
+      "index": 4,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "GSM TO",
+      "originalId": "GRAMMAGE_TO",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "GROUP_NUMBER": {
+      "alias": "GROUP_NUMBER",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GROUP_NUMBER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "GROUP_NUMBER",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "G.NO",
+      "originalId": "GROUP_NUMBER",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "OPERATOR": {
+      "alias": "OPERATOR",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"OPERATOR\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "OPERATOR",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "CONDITION",
+      "originalId": "OPERATOR",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "PRODUCT_FILTER_ITEM_NUMBER": {
+      "alias": "PRODUCT_FILTER_ITEM_NUMBER",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PRODUCT_FILTER_ITEM_NUMBER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "PRODUCT_FILTER_ITEM_NUMBER",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "PRODUCT FILTER ITEM NUMBER",
+      "originalId": "PRODUCT_FILTER_ITEM_NUMBER",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "PRODUCT_FILTER_NUMBER": {
+      "alias": "PRODUCT_FILTER_NUMBER",
+      "allowCellWrapping": false,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PRODUCT_FILTER_NUMBER\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "PRODUCT_FILTER_NUMBER",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "PRODUCT FILTER NUMBER",
+      "originalId": "PRODUCT_FILTER_NUMBER",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "customColumn1",
+      "allowCellWrapping": false,
+      "borderRadius": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+      "boxShadow": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "menuButton",
+      "computedValue": "",
+      "customAlias": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn1",
+      "index": 7,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "ACTION",
+      "labelColor": "#FFFFFF",
+      "menuButtonLabel": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( '...'))}}",
+      "menuColor": "{{ProductFilterItemTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+      "menuItems": {
+        "menuItem3ron2jeaqw": {
+          "iconName": "trash",
+          "id": "menuItem3ron2jeaqw",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "DELETE",
+          "onClick": "{{showModal('DeleteModal')}}",
+          "widgetId": "oum9voq7q3"
+        },
+        "menuItemusf0y16thl": {
+          "iconName": "edit",
+          "id": "menuItemusf0y16thl",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "EDIT",
+          "onClick": "{{CreateProductFilterUtil.EditFilterItemClick()}}",
+          "widgetId": "h7f5fz5e37"
+        }
+      },
+      "menuItemsSource": "STATIC",
+      "originalId": "customColumn1",
+      "sticky": "",
+      "validation": {},
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{GetProductFilterItem.data}}",
+  "textSize": "0.875rem",
+  "topRow": 19,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 1,
+  "verticalAlignment": "CENTER",
+  "widgetId": "tvzo1gy8a4",
+  "widgetName": "ProductFilterItemTable"
+}

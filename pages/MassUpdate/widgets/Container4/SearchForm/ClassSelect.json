@@ -1,0 +1,56 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{appsmith.store.RecipeClassDropDown}}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "geuzmg79y9",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 24,
+  "onOptionChange": "{{RecipeUtil.LoadRecipeTypeDropDown()}}",
+  "options": "{{GetRecipeClass.data.filter(x => x.value != 'All')}}",
+  "parentColumnSpace": 13.75,
+  "parentId": "6o28nlkh1n",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 36,
+  "selectionType": "SINGLE_SELECT",
+  "serverSideFiltering": false,
+  "topRow": 4,
+  "type": "DROP_DOWN_WIDGET",
+  "version": 1,
+  "widgetId": "m8r8vbkikp",
+  "widgetName": "ClassSelect"
+}

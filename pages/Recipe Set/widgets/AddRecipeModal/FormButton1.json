@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "buttonColor": "#000",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "displayName": "FormButton",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": true,
+  "iconSVG": "/static/media/icon.c8f649ed.svg",
+  "isDefaultClickDisabled": true,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6dldvo9ade",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 54,
+  "onClick": "{{JSObject1.onSearchModal()}}",
+  "parentId": "syzvv3hxrg",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "rightColumn": 59,
+  "text": "Search",
+  "topRow": 9,
+  "type": "FORM_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "mi139q3mus",
+  "widgetName": "FormButton1"
+}
